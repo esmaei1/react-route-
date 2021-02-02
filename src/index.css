@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-wrapper a.active{
+  background-color: rgb(119, 139, 212);;
+}
+
+.post{
+  position: relative;
+}
+.post .card-title{
+  z-index: 1000;
+}
+.post p{
+  z-index: 1000;
+}
+.card-content{
+  padding-left: 60px!important;
+}
+.post .card-content img{
+  position: absolute;
+  width: 50px;
+  top: 5px;
+  left: 0;
+  z-index: 900;
+}
+
+
